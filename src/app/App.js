@@ -5,6 +5,7 @@ import { BrowserRouter, useLocation } from "react-router-dom";
 import Router from "../hooks/Router";
 import Headermain from "../header";
 import AppRoutes from "./routes";
+
 function _ScrollToTop(props) {
   const { pathname } = useLocation();
   useEffect(() => {
