@@ -1,6 +1,7 @@
 import me from "./assets/me.jpeg";
 import inabel from "./assets/inabel.png";
 import quickCash from "./assets/quick_cash.jpg";
+
 const logotext = "CRAM";
 const meta = {
   title: "Marc Justine Torres",
@@ -14,7 +15,7 @@ const introdata = {
     second: "I develop web applications",
   },
   description:
-    "A passionate coder who thrives on solving problems and building quirky apps. Always eager to learn, I write clean code and love leveling up.",
+    "I'm an enthusiastic programmer / developer who thrives on solving problems and building quirky apps. Always eager to learn, I write clean code and love leveling up.",
   your_img_url: me,
 };
 
@@ -65,15 +66,9 @@ const dataportfolio = [
 ];
 
 const contactConfig = {
-  YOUR_EMAIL: "torresmarc501@gmail.com",
-  YOUR_FONE: "🇵🇭 +63 999 458 0043",
-  // description:
-  //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
-  // creat an emailjs.com account
-  // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-  YOUR_SERVICE_ID: "service_id",
-  YOUR_TEMPLATE_ID: "template_id",
-  YOUR_USER_ID: "user_id",
+  email: "torresmarc501@gmail.com",
+  phone: "🇵🇭 +63 999 458 0043",
+
 };
 
 const socialprofils = {

@@ -3,7 +3,7 @@ import "./style.css";
 import { VscGrabber, VscClose } from "react-icons/vsc";
 import { Link } from "react-router-dom";
 import { logotext, socialprofils } from "../Main";
-import Theme from "../components/theme";
+import Themetoggle from "../components/theme/index";
 
 const Headermain = () => {
   const [isActive, setActive] = useState("false");
@@ -21,7 +21,7 @@ const Headermain = () => {
             {logotext}
           </Link>
           <div className="d-flex align-items-center">
-            <Theme />
+            <Themetoggle />
             <button className="menu__button  nav_ac" onClick={handleToggle}>
               {!isActive ? <VscClose /> : <VscGrabber />}
             </button>
@@ -69,7 +69,6 @@ const Headermain = () => {
               <a href={socialprofils.github}>Github</a>
               <a href={socialprofils.twitter}>Twitter</a>
             </div>
-            <p className="copyright m-0">copyright __ {logotext}</p>
           </div>
         </div>
       </header>
