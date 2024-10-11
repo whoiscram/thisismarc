@@ -1,14 +1,14 @@
 import React from "react";
 import { Route, Routes} from "react-router-dom";
-import withRouter from "../hooks/withRouter"
-import { Home } from "../pages/home";
-import { Portfolio } from "../pages/portfolio";
-import { ContactUs } from "../pages/contact";
-import { About } from "../pages/about";
-import { Socialicons } from "../components/socialicons";
+import Router from "../hooks/Router"
+import { Home } from "../pages/home/home";
+import { Portfolio } from "../pages/portfolio/portfolio";
+import { ContactUs } from "../pages/contact/contact";
+import { About } from "../pages/about/about";
+import { Icons } from "../components/icons";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
 
-const AnimatedRoutes = withRouter(({ location }) => (
+const AnimatedRoutes = Router(({ location }) => (
   <TransitionGroup>
     <CSSTransition
       key={location.key}
@@ -34,7 +34,7 @@ function AppRoutes() {
   return (
     <div className="s_c">
       <AnimatedRoutes />
-      <Socialicons />
+      <Icons />
     </div>
   );
 }
