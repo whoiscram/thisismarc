@@ -78,3 +78,37 @@
 .po_item .content a:hover {
     text-decoration: none;
 }
+
+.resume-content {
+    background: var(--background-color);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .resume-content h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .resume-content h3 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+  }
+  
+  .resume-content h4 {
+    font-size: 1.2rem;
+    margin-top: 15px;
+  }
+  
+  .resume-content p,
+  .resume-content ul {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  .resume-content ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  

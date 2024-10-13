@@ -9,6 +9,7 @@ import postman from "./assets/Postman.png";
 import github from "./assets/GitHub.png";
 import vs from "./assets/Visual Studio Code (VS Code).png";
 import wamp from "./assets/wamp.png";
+import nms from "./assets/nms.jpg"
 
 const logotext = "CRAM";
 const meta = {
@@ -77,6 +78,14 @@ const dataportfolio = [
     img: inabel,
     description: "Inabel's Online Ordering System",
     link: "https://github.com/whoiscram/it-thesis",
+  },
+  {
+    img: nms,
+    description: "Attendance Platform - Developer / Maintainer",
+  },
+  {
+    img: nms,
+    description: "HR Platform - Developer / Maintainer",
   },
 ];
 
