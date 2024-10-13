@@ -31,7 +31,7 @@ const introdata = {
 const dataabout = {
   title:
     " Junior Programmer | Full Stack Develoepr",
-  aboutme: "Helloo, my name is Marc! I like to write clean code for a living, practicing coding standards like it’s a sport. I’m the kind of person who gets excited about refactoring / innovating like it’s a Friday night party – except it’s me, my desktop, and a perfectly organized opened stack overflow tabs. Throw in some coffee, and I’m ready to debug the universe!",
+  aboutme: "Helloo, my name is Marc! I like to write code for a living, practicing clean code and coding standards like it’s a sport. I’m the kind of person who gets excited about refactoring / innovating like it’s a Friday night party – except it’s me, my desktop, and a perfectly organized opened stack overflow tabs. Throw in some coffee, and I’m ready to take on the universe!",
 };
 
 const worktimeline = [
@@ -102,7 +102,7 @@ const socialprofils = {
 
 const education = [
   {
-    date: "2019 - 2023",
+    date: "2019-2023",
     degree: "Bachelor of Science in Information Technology (BSIT)",
     name: "Saint Louis University",
   },
