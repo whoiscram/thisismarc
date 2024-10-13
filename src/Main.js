@@ -87,6 +87,10 @@ const dataportfolio = [
     img: nms,
     description: "HR Platform - Developer / Maintainer",
   },
+  {
+    img: nms,
+    description: "Notifications Platform - Developer / Maintainer",
+  },
 ];
 
 const contactConfig = {
