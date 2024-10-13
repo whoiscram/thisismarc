@@ -2,7 +2,14 @@ import React from "react";
 import "./about.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Container, Row, Col } from "react-bootstrap";
-import { dataabout, meta, worktimeline, skills } from "../../Main";
+import {
+  dataabout,
+  meta,
+  worktimeline,
+  skills,
+  education,
+  techTools,
+} from "../../Main";
 
 export const About = () => {
   return (
@@ -31,7 +38,7 @@ export const About = () => {
         </Row>
         <Row className=" sec_sp">
           <Col lg="5">
-            <h3 className="color_sec py-4">Work Timline</h3>
+            <h3 className="color_sec py-4">Work Timeline</h3>
           </Col>
           <Col lg="7">
             <table className="table caption-top">
@@ -51,16 +58,59 @@ export const About = () => {
         </Row>
         <Row className="sec_sp">
           <Col lg="5">
-            <h3 className="color_sec py-4">Skills</h3>
+            <h3 className="color_sec py-4 skill-title">Tech Stack</h3>
           </Col>
           <Col lg="7">
-            {skills.map((data, i) => {
-              return (
-                <div key={i}>
-                  <h3 className="progress-title">{data}</h3>
-                </div>
-              );
-            })}
+            <div className="skill-container">
+              {skills.map((data, i) => {
+                return (
+                  <span key={i} className="skill-badge">
+                    {data}
+                  </span>
+                );
+              })}
+            </div>
+          </Col>
+        </Row>
+
+        <Row className="sec_sp">
+          <Col lg="5">
+            <h3 className="color_sec py-4 skill-title">Tools</h3>
+          </Col>
+          <Col lg="7">
+            <div className="skill-container">
+              {techTools.map((tool, i) => {
+                return (
+                  <img
+                    key={i}
+                    src={tool}
+                    alt={`tech-tool-${i}`}
+                    className="skill-image"
+                  />
+                );
+              })}
+            </div>
+          </Col>
+        </Row>
+
+        <Row className="sec_sp">
+          <Col lg="5">
+            <h3 className="color_sec py-4">Education</h3>
+          </Col>
+          <Col lg="7">
+            <table className="table caption-top">
+              <tbody>
+                {education.map((data, i) => {
+                  return (
+                    <tr key={i}>
+                      <th scope="row">{data.degree}</th>
+                      <td>{data.name}</td>
+                      <td>{data.date}</td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
           </Col>
         </Row>
       </Container>
