@@ -17,7 +17,7 @@ const ScrollToTop = Router(_ScrollToTop);
 
 function App() {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <BrowserRouter>
       <ScrollToTop>
         <Headermain />
         <AppRoutes />
