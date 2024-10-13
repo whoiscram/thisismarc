@@ -17,7 +17,7 @@ const ScrollToTop = Router(_ScrollToTop);
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/thisismarc">
       <ScrollToTop>
         <Headermain />
         <AppRoutes />
