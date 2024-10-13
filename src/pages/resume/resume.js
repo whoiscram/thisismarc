@@ -61,7 +61,7 @@ export const Resume = () => {
                   </ul>
     
                   <h3>EDUCATION</h3>
-                  <h4>Bachelor of Information Technology - Saint Louis University, Baguio City (June 5, 2023)</h4>
+                  <h4>Bachelor of Science in Information Technology - Saint Louis University, Baguio City (June 5, 2023)</h4>
                   <ul>
                     <li>Basic Web Development (HTML, CSS, and JavaScript)</li>
                     <li>Object-Oriented Programming (Java)</li>
