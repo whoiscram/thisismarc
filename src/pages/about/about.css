@@ -4,6 +4,7 @@
 
 .table td,
 .table th {
+  background-color: var(--secondary);
   color: var(--text-color);
 }
 
