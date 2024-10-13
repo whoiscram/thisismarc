@@ -1,6 +1,5 @@
 {
   "homepage": "http://whoiscram.github.io/thisismarc",
-  "name": "thisismarc",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
