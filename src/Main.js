@@ -71,12 +71,12 @@ const dataportfolio = [
   {
     img: quickCash,
     description: "Anita Quick Cash Loaning System.",
-    link: "#",
+    link: "https://github.com/whoiscram/anita-quickcash",
   },
   {
     img: inabel,
     description: "Inabel's Online Ordering System",
-    link: "#",
+    link: "https://github.com/whoiscram/it-thesis",
   },
 ];
 
